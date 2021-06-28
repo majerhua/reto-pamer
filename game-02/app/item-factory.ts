@@ -1,6 +1,6 @@
 import { Item } from "./item";
 import { BackstageItem } from "./backstage-item";
-import { ConjuredItem } from "./conjured-items";
+import { ConjuredItem } from "./conjured-item";
 import { NormalItem } from "./normal-item";
 import { SulfurasItem } from "./sulfuras-item";
 import { AgedItem } from "./aged-item";

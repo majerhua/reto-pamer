@@ -1,11 +1,5 @@
-export class Item {
+export interface Item {
     name: string;
-    sellIn: number;
     quality: number;
-
-    constructor(name, quality, sellIn) {
-        this.name = name;
-        this.quality = quality;
-        this.sellIn = sellIn;
-    }
-}
+    sellIn: number;
+};
